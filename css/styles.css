@@ -1,7 +1,12 @@
 h1{
   text-align: center;
   background-color: #c6b8ce ;
+  color: black;
 }
-.container img{
+.card img{
   margin-left: 450px;
+}
+body{
+  background-color: #A93226;
+  color: #fff;
 }
