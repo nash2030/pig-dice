@@ -16,7 +16,7 @@ function Player(turn) {
 Player.prototype.rollone = function() {
   if (this.roll === 1) {
     this.myscore = 0;
-    alert("Ooops!! " + this.playerName + ", you rolled a one")
+    alert("Ooops!! " + this.playerName + " you rolled a one")
 
   } else {
     this.myscore += this.roll;
@@ -25,7 +25,7 @@ Player.prototype.rollone = function() {
 Player.prototype.hold = function() {
   this.totalscore += this.myscore;
   this.myscore = 0;
-  alert(this.playerName + ", your turn is over, hand over the mouse!");
+  alert(this.playerName + " your turn is over hand over the mouse!");
 }
 
 Player.prototype.findWinner = function() {
