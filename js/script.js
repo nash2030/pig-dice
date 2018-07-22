@@ -30,7 +30,7 @@ Player.prototype.hold = function() {
 
 Player.prototype.findWinner = function() {
   if (this.totalscore >= 100) {
-    alert(this.playerName + " You are the winner!");
+    alert(this.playerName + " you are the winner!");
   }
 }
 
