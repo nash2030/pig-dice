@@ -7,11 +7,11 @@ h1{
   padding: 10px;
 }
 body{
-  background-image: url(../img/carpet.jpg);
+  background-image: url("../img/carpet.jpg");
   color: black;
   background-repeat: no-repeat;
   background-size: contain;
 }
-.player-console{
+.game-changer{
   display: none;
 }
