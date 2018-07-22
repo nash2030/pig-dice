@@ -1,5 +1,6 @@
-var player1;
-var player2;
+
+var player1 = "";
+var player2 = "";
 
 var dribble = function() {
   return Math.floor(Math.random() * 6) + 1;
@@ -39,12 +40,14 @@ Player.prototype.reset = function() {
   this.totalscore = 0;
   this.playerName = "";
 }
+
+
 $(document).ready(function() {
 	$("button#play").click(function(event) {
 	    player1 = new Player(true);
 	    player2 = new Player(false);
 	    $(".game-changer").show();
-	    $(".start-menu").hide();
+	    $(".home-page").hide();
 
 			var player1Name = $(".player1Name").val();
 			    $("#player1Name").text(player1Name);
@@ -95,11 +98,11 @@ $(document).ready(function() {
 									  });
 
 										$("button#player2-hold").click(function(event) {
-    							player2.hold();
-    					$("#total-score-2").text(player2.totalscore);
-    			$("#round-total-2").empty();
-    	$("#die-roll-2").empty();
-    player2.findWinner();
-  });
+    										player2.hold();
+    										$("#total-score-2").text(player2.totalscore);
+    										$("#round-total-2").empty();
+    										$("#die-roll-2").empty();
+    										player2.findWinner();
+  										});
 
 });
