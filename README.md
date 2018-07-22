@@ -17,4 +17,4 @@ Nathan Ongoya
 
 ###View my project on [rolling-dice](https://github.com/nash2030/pig-dice.git)
 
-copyright and license information
+Copyright (c) [2018](https://en.wikipedia.org/wiki/MIT_License) Nathan Ongoya 
