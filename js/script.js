@@ -78,3 +78,10 @@ $(document).ready(function() {
 							    player1.rollone();
 							    $("#round-total-1").text(player1.myscore);
 							  });
+
+								$("button#player2-roll").click(function(event) {
+								    player2.roll = dribble();
+								    $("#die-roll-2").text(player2.roll);
+								    player2.rollone();
+								    $("#round-total-2").text(player2.myscore);
+								  });
