@@ -17,3 +17,5 @@ var rollSecond=0;
 var turnSecond=0;
 var totalSecond= 0;
 var score1Second= 0;
+
+Players.prototype.rollOne= function(){
