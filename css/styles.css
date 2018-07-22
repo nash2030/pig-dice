@@ -26,5 +26,6 @@ body{
 #play{
   transition: all 0.2s ease-in-out;
   color: #fff;
+  background-color: rgb(255, 0, 0);
 
 }
