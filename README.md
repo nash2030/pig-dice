@@ -5,10 +5,10 @@
   Nathan Ongoya
 
 ## Prerequisites
-     i.html
-    ii.css
-   iii.JavaScript
-    iv.bootstrap and jquery libraries
+      i.html
+     ii.css
+     iii.JavaScript
+     iv.bootstrap and jquery libraries
 
 ## Installing
  * Find me at github using nash2030
