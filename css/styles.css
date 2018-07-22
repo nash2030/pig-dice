@@ -10,7 +10,7 @@ body{
   background-image: url("../img/carpet.jpg");
   color: black;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 .game-changer{
   display: none;
