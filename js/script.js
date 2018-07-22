@@ -85,3 +85,11 @@ $(document).ready(function() {
 								    player2.rollone();
 								    $("#round-total-2").text(player2.myscore);
 								  });
+
+									$("button#player1-hold").click(function(event) {
+									    player1.hold();
+									    $("#total-score-1").text(player1.totalscore);
+									    $("#round-total-1").empty();
+									    $("#die-roll-1").empty();
+									    player1.findWinner();
+									  });
