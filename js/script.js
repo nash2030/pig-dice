@@ -24,7 +24,7 @@ Player.prototype.rollone = function() {
 Player.prototype.hold = function() {
   this.totalscore += this.myscore;
   this.myscore = 0;
-  alert(this.playerName + ", your turn is over, pass the mouse!");
+  alert(this.playerName + ", your turn is over, hand over the mouse!");
 }
 
 Player.prototype.findWinner = function() {
@@ -45,3 +45,6 @@ $(document).ready(function() {
 	    player2 = new Player(false);
 	    $(".game-changer").show();
 	    $(".start-menu").hide();
+			
+			var player1Name = $(".player1Name").val();
+			    $("#player1Name").text(player1Name);
