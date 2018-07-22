@@ -16,9 +16,14 @@ body{
   display: none;
 }
 .card{
-
+  margin-left: 50px;
 }
 #second img{
   height: 50%;
   width: 50%;
+  float: left;
+}
+#play{
+  transition: all 0.2s ease-in-out;
+
 }
