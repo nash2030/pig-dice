@@ -10,6 +10,11 @@ Nathan Ongoya
   iii.JavaScript
   iv.bootstrap and jquery libraries
 
+##Installing
+* Find me at github using nash2030
+* Choose nash2030/pig-dice project
+* Git clone <https://github.com/nash2030/pig-dice.git>
 
-Link to live site on GitHub Pages
+###View my project on [rolling-dice](https://github.com/nash2030/pig-dice.git)
+
 copyright and license information
