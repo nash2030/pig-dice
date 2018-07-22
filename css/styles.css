@@ -21,6 +21,9 @@ body{
 .card{
   margin-left: 50px;
 }
+.game-changer{
+  color:#fff;
+}
 #second img{
   height: 50%;
   width: 50%;
@@ -40,4 +43,7 @@ body{
 }
 #pig{
   margin-left: 90px;
+}
+.player{
+  color:#fff;
 }
