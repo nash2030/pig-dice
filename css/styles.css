@@ -1,8 +1,9 @@
 h1{
   text-align: center;
-  color: black;
+  color: rgb(255,0,0);
   font-family: 'Ultra', serif;
   font-family: 'Sedgwick Ave Display', cursive;
+  text-align: center;
 }
 #second img{
   margin-left: 450px;
@@ -29,5 +30,6 @@ body{
   transition: all 0.2s ease-in-out;
   color: #fff;
   background-color: rgb(255, 0, 0);
-
+  padding-left: 3em;
+  padding-right: 3em;
 }
