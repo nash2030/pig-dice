@@ -32,4 +32,6 @@ body{
   background-color: rgb(255, 0, 0);
   padding-left: 3em;
   padding-right: 3em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
 }
