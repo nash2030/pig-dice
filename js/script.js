@@ -71,3 +71,10 @@ $(document).ready(function() {
 
 						    $(".home-page").show();
 						  });
+
+							$("button#player1-roll").click(function(event) {
+							    player1.roll = dribble();
+							    $("#die-roll-1").text(player1.roll);
+							    player1.rollone();
+							    $("#round-total-1").text(player1.myscore);
+							  });
