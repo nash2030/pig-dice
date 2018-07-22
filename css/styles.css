@@ -7,7 +7,7 @@ h1{
   padding: 10px;
 }
 body{
-  background-image: url("../img/carpet.jpg");
+  background-image: url("../img/flash.jpg");
   color: black;
   background-repeat: no-repeat;
   background-size: cover;
@@ -16,5 +16,5 @@ body{
   display: none;
 }
 .card{
-  
+
 }
