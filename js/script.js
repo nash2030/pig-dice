@@ -40,3 +40,8 @@ Player.prototype.reset = function() {
   this.playerName = "";
 }
 $(document).ready(function() {
+	$("button#play").click(function(event) {
+	    player1 = new Player(true);
+	    player2 = new Player(false);
+	    $(".game-changer").show();
+	    $(".start-menu").hide();
