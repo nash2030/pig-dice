@@ -16,7 +16,7 @@ function Player(turn) {
 Player.prototype.rollone = function() {
   if (this.roll === 1) {
     this.myscore = 0;
-    alert("Ooops!! " + this.playerName + " you rolled a one")
+    alert("Ooops!! " + this.playerName + " you rolled a one.Turn for the next player")
 
   } else {
     this.myscore += this.roll;
