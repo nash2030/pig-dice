@@ -27,7 +27,7 @@ Player.prototype.hold = function() {
   alert(this.playerName + ", your turn is over, pass the mouse!");
 }
 
-Player.prototype.winnerCheck = function() {
+Player.prototype.findWinner = function() {
   if (this.totalscore >= 100) {
     alert(this.playerName + " You are the winner!");
   }
@@ -39,3 +39,4 @@ Player.prototype.reset = function() {
   this.totalscore = 0;
   this.playerName = "";
 }
+$(document).ready(function() {
