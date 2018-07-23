@@ -5,7 +5,7 @@ h1{
   text-align: center;
 }
 #second img{
-  margin-left: 220px;
+  margin-left: 200px;
   padding: 10px;
   height: 50%;
   width: 50%;
@@ -43,7 +43,7 @@ body{
   margin-left: 90px;
 }
 .player{
-  color:#fff;
+  color:rgb(255,0,0);
 }
 #play-game{
   background-color: rgb(255,0,0);
