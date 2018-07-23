@@ -5,7 +5,7 @@ h1{
   text-align: center;
 }
 #second img{
-  margin-left: 450px;
+  margin-left: 280px;
   padding: 10px;
 }
 body{
@@ -19,6 +19,7 @@ body{
 }
 .card{
   margin-left: 50px;
+  font-family: 'Julee', cursive;
 }
 .game-changer{
   color:#fff;
@@ -45,4 +46,8 @@ body{
 }
 .player{
   color:#fff;
+}
+#play-game{
+  background-color: rgb(255,0,0);
+  color: #fff;
 }
