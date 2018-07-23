@@ -5,8 +5,11 @@ h1{
   text-align: center;
 }
 #second img{
-  margin-left: 280px;
+  margin-left: 220px;
   padding: 10px;
+  height: 50%;
+  width: 50%;
+  float: left;
 }
 body{
   background-image: url("../img/flash.jpg");
@@ -23,11 +26,6 @@ body{
 }
 .game-changer{
   color:#fff;
-}
-#second img{
-  height: 50%;
-  width: 50%;
-  float: left;
 }
 #play{
   transition: all 0.2s ease-in-out;
